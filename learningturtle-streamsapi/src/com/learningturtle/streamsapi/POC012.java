@@ -8,27 +8,28 @@
 package com.learningturtle.streamsapi;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author shreyansh pandey
  * @version v1.0
- * @since 10-Oct-2023
+ * @since 12-Oct-2023
  * @link https://github.com/white-parrot/learning-turtle/blob/master/JavaStreamCodingQuestions.md
  */
-public class POC009 {
+public class POC012 {
 
-	/* Given a list of integers, sort all the values present in it in descending order using Stream functions */
+	/* Write a Java 8 program to concatenate two Streams */
 	
 	public static void main(String[] args) {
 		
-		List<Integer> intList = Arrays.asList(23, 56 ,12, 78, 34 ,78 ,34 ,12, 56, 89 ,45, 23 ,34, 78);
+		List<Integer> intList1 = Arrays.asList(23, 56 ,12, 78, 34 ,78 ,34 ,12, 56, 89 ,45, 23 ,34, 78);
 		
-		List<Integer> evenIntList = intList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+		List<Integer> intList2 = Arrays.asList(55, 57, 67, 26, 45, 72, 66, 19, 27, 38, 28, 97, 68, 37);
 		
-		evenIntList.forEach(System.out::println);
+		Stream<Integer> intStream = Stream.concat(intList1.stream(), intList2.stream());
+		
+		intStream.forEach(System.out::println);
 		
 	}
 }

@@ -8,27 +8,26 @@
 package com.learningturtle.streamsapi;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
  * @author shreyansh pandey
  * @version v1.0
- * @since 10-Oct-2023
+ * @since 12-Oct-2023
  * @link https://github.com/white-parrot/learning-turtle/blob/master/JavaStreamCodingQuestions.md
  */
-public class POC009 {
+public class POC013 {
 
-	/* Given a list of integers, sort all the values present in it in descending order using Stream functions */
+	/* Java 8 program to perform cube on list elements and filter numbers greater than 50 */
 	
 	public static void main(String[] args) {
 		
-		List<Integer> intList = Arrays.asList(23, 56 ,12, 78, 34 ,78 ,34 ,12, 56, 89 ,45, 23 ,34, 78);
+		List<Integer> intList = Arrays.asList(23, 56, 5, 12, 78, 34, 7, 78, 6, 34, 3, 12, 56, 89, 4, 45, 23, 1, 34, 78);
 		
-		List<Integer> evenIntList = intList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+		List<Integer> opList = intList.stream().map(n -> n*n*n).filter(n -> n > 50).collect(Collectors.toList());
 		
-		evenIntList.forEach(System.out::println);
+		opList.forEach(System.out::println);
 		
 	}
 }

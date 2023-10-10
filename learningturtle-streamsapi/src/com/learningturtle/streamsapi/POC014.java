@@ -10,25 +10,27 @@ package com.learningturtle.streamsapi;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @author shreyansh pandey
  * @version v1.0
- * @since 10-Oct-2023
+ * @since 12-Oct-2023
  * @link https://github.com/white-parrot/learning-turtle/blob/master/JavaStreamCodingQuestions.md
  */
-public class POC009 {
+public class POC014 {
 
-	/* Given a list of integers, sort all the values present in it in descending order using Stream functions */
+	/* Write a Java 8 program to sort an array and then convert the sorted array into Stream */
 	
 	public static void main(String[] args) {
 		
-		List<Integer> intList = Arrays.asList(23, 56 ,12, 78, 34 ,78 ,34 ,12, 56, 89 ,45, 23 ,34, 78);
+		List<Integer> intList = Arrays.asList(23, 56, 5, 12, 78, 34, 7, 78, 6, 34, 3, 12, 56, 89, 4, 45, 23, 1, 34, 78);
 		
-		List<Integer> evenIntList = intList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+		Collections.sort(intList);
 		
-		evenIntList.forEach(System.out::println);
+		/* Using Arrays Parallel Sort*/
+		// Arrays.parallelSort(new int[]{23, 56, 5, 12, 78, 34, 7, 78, 6, 34, 3, 12, 56, 89, 4, 45, 23, 1, 34, 78});
+		
+		intList.stream().forEach(System.out::println);
 		
 	}
 }
