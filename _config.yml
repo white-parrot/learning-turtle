@@ -1,7 +1,0 @@
-theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
-#logo: logo.png
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [A Learning Turtle]
-description: [A Turtle's Blog who is Keen to Learn]
