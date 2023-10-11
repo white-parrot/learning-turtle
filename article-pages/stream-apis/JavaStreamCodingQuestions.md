@@ -12,12 +12,12 @@
 + #### [Given a String, find the first repeated character in it using Stream functions](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC008.java)****
 + #### [Given a list of integers, sort all the values present in it using Stream functions](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC009.java)*
 + #### [Given a list of integers, sort all the values present in it in descending order using Stream functions](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC010.java)*
-+ #### [Given an integer array nums, return true if any value appears at least twice or more in the array, else false]()
-+ #### [Write a Java 8 program to concatenate two Streams]()
-+ #### [Java 8 program to perform cube on list elements and filter numbers greater than 50]()
-+ #### [Write a Java 8 program to sort an array and then convert the sorted array into Stream]()
-+ #### [How to use map to convert object into Uppercase in Java 8]()
-+ #### [How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order]()
++ #### [Given an integer array nums, return true if any value appears at least twice or more in the array, else false](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC011.java)**
++ #### [Write a Java 8 program to concatenate two Streams](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC012.java)*
++ #### [Java 8 program to perform cube on list elements and filter numbers greater than 50](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC013.java)**
++ #### [Write a Java 8 program to sort an array and then convert the sorted array into Stream](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC014.java)**
++ #### [How to use map to convert object into Uppercase in Java 8](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC015.java)*
++ #### [How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order](https://github.com/white-parrot/learning-turtle/blob/master/learningturtle-streamsapi/src/com/learningturtle/streamsapi/POC016.java)*****
 + #### [How to count each element/word from the String ArrayList in Java8]()
 + #### [How to check if list is empty in Java 8 using Optional, if not null iterate through the list and print the object]()
 + #### [Write a Program to find the Maximum element in an array]()
